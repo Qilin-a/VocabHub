@@ -1,0 +1,26 @@
+{
+  "name": "公共词库",
+  "short_name": "词库",
+  "description": "人人可添加、查看和分享的在线词汇库",
+  "start_url": "/public-vocabulary/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/public-vocabulary/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/public-vocabulary/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["education", "productivity", "reference"],
+  "lang": "zh-CN"
+}

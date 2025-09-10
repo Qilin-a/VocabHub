@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yourusername.github.io/public-vocabulary/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow admin areas
+Disallow: /admin
+Disallow: /login
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /words
+Allow: /categories
+Allow: /add-word
+Allow: /import
