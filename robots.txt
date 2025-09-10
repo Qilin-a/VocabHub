@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# 主要页面
+Allow: /VocabHub/
+Allow: /VocabHub/words
+Allow: /VocabHub/add-word
+Allow: /VocabHub/study
+
+# 禁止访问的路径
+Disallow: /VocabHub/admin
+Disallow: /VocabHub/login
+Disallow: /VocabHub/import
+Disallow: /VocabHub/api/
+Disallow: /VocabHub/private/
+
+# 静态资源
+Allow: /VocabHub/assets/
+Allow: /VocabHub/*.css
+Allow: /VocabHub/*.js
+Allow: /VocabHub/*.png
+Allow: /VocabHub/*.jpg
+Allow: /VocabHub/*.svg
+Allow: /VocabHub/*.ico
+
+# Sitemap
+Sitemap: https://qilin-a.github.io/VocabHub/sitemap.xml
+
+# 爬虫延迟
+Crawl-delay: 1
